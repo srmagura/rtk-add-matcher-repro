@@ -1,7 +1,7 @@
 import { createAction, createReducer } from "@reduxjs/toolkit";
 
 interface SpecialAction {
-  // Uncomment the next line, and then action.payload will be typed correctly
+  // Uncomment the next line, and then `action` will be typed correctly
   // type: string;
   payload: number;
 }
